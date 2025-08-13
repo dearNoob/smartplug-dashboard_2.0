@@ -1,0 +1,37 @@
+{
+  "name": "tuya-iot-dashboard",
+  "version": "1.0.0",
+  "description": "A comprehensive IoT device management dashboard for Tuya devices",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "setup": "npm install && node setup.js"
+  },
+  "keywords": [
+    "tuya",
+    "iot",
+    "dashboard",
+    "smart-home",
+    "device-control",
+    "energy-monitoring"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@tuyapi/cloud": "^0.6.2",
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.6.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
